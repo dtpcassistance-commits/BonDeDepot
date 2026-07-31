@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Fond arrondi dégradé bleu -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007bff"/>
+      <stop offset="100%" style="stop-color:#4fc1e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="url(#bg)"/>
+  <!-- Écran monitor simplifié -->
+  <rect x="5" y="6" width="22" height="14" rx="2" fill="none" stroke="white" stroke-width="2"/>
+  <!-- Pied monitor -->
+  <line x1="16" y1="20" x2="16" y2="25" stroke="white" stroke-width="2"/>
+  <line x1="11" y1="25" x2="21" y2="25" stroke="white" stroke-width="2"/>
+  <!-- Trait stylet / signature -->
+  <path d="M8 14 Q12 10 16 13 Q20 16 24 11" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
